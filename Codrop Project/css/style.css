@@ -1,0 +1,253 @@
+.navbar-brand img{
+	width: 150px;
+	filter: invert(1); 
+}
+header {
+
+	background: #37517E;
+		background-image: url(../images/logo2.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: right center;
+}
+.content{
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+header h1{
+	
+font-size: 40px;
+	
+font-weight: 500;
+	line-height: 1.3;
+margin-bottom: 30px;
+}
+header p{
+	line-height: 1.8;
+	font-weight: 400;
+/* margin-top: 30px; */
+
+margin-bottom: 30px;
+}
+.blue {
+	background: #47B2E4 !important;
+}
+.content a{
+
+}
+.btn:hover{
+box-shadow: 0 0.0rem 0rem rgba(0, 0, 0, 0.0) !important;
+color: white;
+}
+.btn i{
+	color: #47b2e4;
+	font-size: 40px;
+}
+a.btn{
+
+	display: inline-flex;
+	align-items: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255);
+    font-weight: 450;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus
+{
+    color: rgb(71 178 228) !important;
+}
+
+
+.features-section{
+	padding: 100px 0;
+}
+.feature{
+    padding: 40px 20px;
+}
+.feature.feature-padding{
+	  padding: 0 20px;
+}
+.feature > i{
+	 color: #47b2e4;
+    font-size: 30px;
+}
+.feature h1{
+    line-height: 1.5;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.feature h2{
+    margin: 20px 0;
+    font-size: 25px;
+}
+.feature p{
+    line-height: 1.5;
+    font-weight: 450;
+    margin: 10px 0;
+    color: #181717c7;
+    font-size: 14px;
+}
+
+.feature a{
+		 color: #47b2e4;
+		 font-weight: 600;
+}
+.feature a i{
+	 color: #47b2e4;
+    font-size: 30px;
+margin-left: 20px;
+transition: all 0.5s ease;
+}
+.feature a:hover{
+	
+ color: #47b2e4;
+}
+
+.feature a:hover i{
+
+	margin-left: 20px;
+}
+.feature.shadow-sm {
+    box-shadow: 0 0.125rem 1rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.about-section{
+	background-color: #EAF5FC;
+		background-image: url(../images/landing.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: left center;
+
+}
+.about-section a{
+	padding: 12px 18px !important;
+}
+.about-section h1{
+
+font-size: 33px;
+
+line-height: 1.5;
+
+margin-bottom: 30px;
+}
+.about-section p{
+line-height: 1.7;
+font-size: 15px;
+
+font-weight: 450;
+}
+
+.question-section {
+    padding: 100px 0;
+}
+.question-section ul {
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 650;
+}
+.question-section ul li{
+margin-bottom: 20px;
+line-height: 1.8;
+font-size: 20px !important; 
+font-weight: 670;
+}
+.question-section h1{
+	font-size: 32px !important;
+	font-weight: 670;
+	line-height: 1.6;
+}
+.question-section ul p{
+font-size: 15px;
+font-weight: 500;
+}
+
+.question-section ul li i{
+	margin-right: 10px;
+	background: black;
+    color: white;
+    width: 25px;
+    display: inline-block;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+.question-section ul li [aria-expanded ="false"] i{
+
+}
+.question-section ul li [aria-expanded ="true"] i{
+	transform: rotate(90deg);
+}
+
+.large-section{
+	background: #eaf5fc;
+	padding: 100px 0;
+}
+.large-section h1{
+	font-size: 35px;
+	font-weight: 550;
+	margin-bottom: 40px;
+}
+.large-section p{
+
+	line-height: 1.7;
+}
+span{
+		 color: #47b2e4;
+}
+
+.heading p{
+margin-bottom: 50px;
+}
+.large-section .feature{
+	padding: 30px;
+
+    background: white;
+    margin-bottom: 
+    30px;
+}
+
+.solution {
+    padding: 100px 0;
+    background: #37517e;
+}
+.solution p{
+	margin-top: 50px;
+}
+.solution h1{
+
+	font-size: 30px;
+}
+.solution i{
+	color: #47b2e4;
+	font-size: 40px;
+}
+.half-circle{
+background: #fff;
+width: 60px;
+height: 30px;
+border-radius: 0 0 40px 40px;
+}
+
+.revolion{
+padding: 140px 0;
+    background: #EAF5FC !important;
+}
+
+.revolion .col-md-4 {
+    border-right: 1px solid;
+    margin-right: 10px;
+}
+.revolion h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #000000ad;
+    }
+.revolion p {
+    font-size: 16px;
+    line-height: 2.0;
+    color: #386384;
+    margin-bottom: 50px
